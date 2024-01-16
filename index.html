@@ -11,42 +11,21 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <header>
-    <h1>Galeria de Fotos</h1>
-    <button type="button">Nova Imagem</button>
-  </header>
-  <form>
-    <h2>Adicionar nova imagem</h2>
-    <input type="url" id="endereco-imagem-nova" required placeholder="URL da Imagem">
-    <button type="submit">Adicionar</button>
-    <button type="reset" id="botao-cancelar">Cancelar</button>
-  </form>
-  <ul>
-    <li>
-      <img src="./images/foto1.jpg" alt="Pinturad de um gato">
-      <div class="overlay-imagem-link">
-        <a href="./images/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
-          Ver imagem em tamanho real
-        </a>
+  <div id="corpo">
+    <header>
+      <div>
+        <h1>Lista de Tarefas</h1>
       </div>
-    </li>
-    <li>
-      <img src="./images/foto2.jpg" alt="Pinturad de um gato">
-      <div class="overlay-imagem-link">
-        <a href="./images/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">
-          Ver imagem em tamanho real
-        </a>
-      </div>
-    </li>
-    <li>
-      <img src="./images/foto3.jpg" alt="Pinturad de um gato">
-      <div class="overlay-imagem-link">
-        <a href="./images/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">
-          Ver imagem em tamanho real.
-        </a>
-      </div>
-    </li>
-  </ul>
+    </header>
+    <form class="tabela">
+      <input type="text" required placeholder="Nome da Tarefa" >
+      <button type="submit">Cadastrar</button>
+      <ul>
+        <li>
+        </li>
+      </ul>
+    </form>
+  </div>
   <script src="jquery-3.7.1.min.js"></script>
   <script src="main.js"></script>
 </body>
