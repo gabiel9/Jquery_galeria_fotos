@@ -23,9 +23,13 @@ body {
     padding: 16px 0;
 }
 
-header {
+header, form {
     background-color: rgb(1, 53, 98);
     color: white;
+}
+
+form {
+    padding-bottom: 8px;
 }
 
 h1 {
@@ -38,6 +42,28 @@ input, button, li {
     padding: 3px;
 }
 
+ul {
+    list-style: none;
+    background-color: rgb(1, 53, 98);
+}
+
 li {
-    display: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+div .caixa {
+    color: white;
+    
+}
+
+h3 {
+    cursor: pointer;
+}
+
+.risco {
+    text-decoration: line-through;
+    color: #ff0000;
 }
